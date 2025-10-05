@@ -12,11 +12,11 @@ hp71_id = 28415
 hp72_id = 29000
 
 hp1 = ["HP1PS1", "HP1PC"]
-hp2 = ["HP2PS1", "HP2PC100", "HP2PCEXT"]
+hp2 = ["HP2PS1", "HP2PC100", "HP2PCEXT", "Harry Potter 2 Extended (PC) (NEW UPDATE) Gameplay, No Commentary"]
 hp3 = ["HP3GBA", "HP3PC"]
 hp4 = ["HP4GBA", "HP4PC"]
-hp5 = ["HP5PC"]
-hp6 = ["HP6PC"]
+hp5 = ["HP5PC", "Harry Potter 5 (PC) Gameplay, No Commentary"]
+hp6 = ["HP6PC", "Harry Potter 6 (PC) Gameplay, No Commentary"]
 hp71 = ["HP71PC"]
 hp72 = ["HP72PC"]
 
@@ -24,16 +24,18 @@ refresh_intervall = 15
 
 all_hp_strings = [hp1, hp2, hp3, hp4, hp5, hp6, hp71, hp72]
 
-new_title = "[🔴LIVE 24/7] Harry Potter TV ⚡ Relax, Sleep, Work, Study with Harry 🧙 !info !discord !gamelist⚡ @oldschoolpotter"
+new_title = "[🔴LIVE 24/7] Harry Potter TV ⚡ Relax, Sleep, Work, Study with Harry 🧙 !info !discord !gamelist⚡ @parryhottertv"
 new_game_category = None
 current_game_category = None
 
-filePathSecrets = "C:/Users/Administrator/Desktop/Ressourcen/twitchsecrets.txt" 
+#filePathSecrets = "C:/Users/Administrator/Desktop/Ressourcen/twitchsecrets.txt" 
+filePathSecrets = "/root/Desktop/24-7-ParryHotterTV/Tuna Ressourcen/twitchsecrets.txt" #linux ubuntu
 #line1 = client_id
 #line2 = secret_token
 twitchSecrets = []
 
-filePathTuna = "C:/Users/Administrator/Desktop/Ressourcen/tuna_output.txt"
+#filePathTuna = "C:/Users/Administrator/Desktop/Ressourcen/tuna_output.txt"
+filePathTuna = "/root/Desktop/24-7-ParryHotterTV/Tuna Ressourcen/tuna_output.txt" #linux ubuntu
 textTuna = None
 
 with open(filePathSecrets) as file:
